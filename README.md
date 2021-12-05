@@ -42,6 +42,12 @@ This is an Epicodus student project.
 * Expected Output: undefined, undefined, || undefined, 'end turn' || 'end turn', 'end turn'
 
 
+* Describe: holdScore();
+
+* Test 1: "Check if newGame.turn is true or false"
+* Code: holdScore();
+* Expected Output: newGame.turn should be true
+
 This Bank Account project will allow user to ..... 
 ## Setup/Installation Requirements
 
