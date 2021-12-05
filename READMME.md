@@ -29,15 +29,13 @@ This is an Epicodus student project.
 * Code: diceRoll();
 * Expected Output: 1
 
-* Describe: Function 
-* Code: 
-* Test 3: 
-* Expected Output: 
+* Test 3: "Should return an integer 1-6"
+* Code: diceRoll();
+* Expected Output: A random number of 1-6. 
 
-* Describe: Function 
-* Code: 
-* Test 4: 
-* Expected Output: 
+* Test 4: "Should return two different dice rolls" 
+* Code: diceRoll();
+* Expected Output: two random numbers between 1 and 6.
 
 
 This Bank Account project will allow user to ..... 

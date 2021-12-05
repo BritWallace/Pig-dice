@@ -1,5 +1,7 @@
 function diceRoll() {
-  return Math.ceil(Math.random());
+  let rollOne = Math.ceil(Math.random() * 6);
+  let rollTwo = Math.ceil(Math.random() * 6);
+  console.log(rollOne, rollTwo); 
 }
 
 // Test code
