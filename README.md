@@ -37,6 +37,10 @@ This is an Epicodus student project.
 * Code: diceRoll();
 * Expected Output: two random numbers between 1 and 6.
 
+* Test 5: "Should verify that a dice roll is not a 1 and if it is return 'end turn'." 
+* Code: diceRoll();
+* Expected Output: undefined, undefined, || undefined, 'end turn' || 'end turn', 'end turn'
+
 
 This Bank Account project will allow user to ..... 
 ## Setup/Installation Requirements
