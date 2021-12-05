@@ -2,7 +2,7 @@ Bank Account
 
 # _Pig-Dice Project_
 
-#### By _**Brit Wallace and Branden Clauson_**_
+#### By _**Brit Wallace, Amy Young, Ryan Rendon._**_
 
 #### An Epicodus student project. 
 
@@ -19,15 +19,15 @@ This is an Epicodus student project.
 
 
 ## Test Specs
-* Describe: Function
-* Code: number
-* Test 1:
-* Expected Output:
+* Describe: diceRoll();
 
-* Describe:
-* Code: 
-* Test 2: 
-* Expected 
+* Test 1: "Should return a random number"
+* Code: diceRoll();
+* Expected Output: any number
+
+* Test 2: "Should return integer rounded up from the result of Math.floor"
+* Code: diceRoll();
+* Expected Output: 1
 
 * Describe: Function 
 * Code: 
@@ -55,7 +55,7 @@ This Bank Account project will allow user to .....
 MIT
 
 
-Feel free to reach out with any questions, comments, or concerns. Email me  at britwallace888@gmail.com or .com
+Feel free to reach out with any questions, comments, or concerns. Email us at britwallace888@gmail.com, Rendon.S.Ryan@gmail.com., or youngamy1223@gmail.com
 
 
-Copyright (c) _December-5-2021_ _Brit Wallace and _
+Copyright (c) _December-5-2021_ _Brit Wallace, Amy Young, and Ryan Rendon. _
