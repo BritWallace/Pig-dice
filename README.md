@@ -48,6 +48,15 @@ This is an Epicodus student project.
 * Code: holdScore();
 * Expected Output: newGame.turn should be true
 
+* Test 2: "Should add newGame.playerOneScore and newGame.currentScore"
+* Code: newGame {true, 5, 0, 5}, holdScore();
+* Expected Output: newGame.playerOneScore should be 10
+
+* Test 3: "When playerOneScore or playerTwoScore score > 99 they will win game.
+* Code: newGame {true, 99, 50, 10}, holdScore();
+* Expected Output: You win!
+
+
 This Bank Account project will allow user to ..... 
 ## Setup/Installation Requirements
 

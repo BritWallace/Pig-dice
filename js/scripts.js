@@ -38,8 +38,19 @@ function holdScore() {
 }
 
 Game.prototype.hold = function() {
-let currentTurn = newGame.turn;
-console.log(currentTurn);
+  let currentTurn = newGame.turn;
+  if (currentTurn === true) {
+    newGame.playerOneScore += newGame.currentScore;
+    return newGame.playerOneScore;
+  } else {
+    newGame.playerTwoScore += newGame.currentScore;
+    return newGame.playerTwoScore;
+  }
+  if (newGame.playerOneScore > 99 || newGame.playerTwoScore > 99) {
+    console.log("you win");
+  } else {
+    newGame.endTurn();
+  }
 }
 
 // Test code
