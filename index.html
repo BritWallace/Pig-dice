@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Pig Dice</title>
-  <title></title>
-</head>
-<body>
-</body>
+  <head>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="screenOne">
+        <button id="start" class="btn btn-primary">Start Game!</button>
+      </div>
+      <div id="screenTwo">
+        <div class="row">
+          <div class="col-md-4">
+            <h1>Player One</h1>
+            <span class="player-one-score"></span>
+          </div>
+          <div class="col-md-4">
+            <h1>Dice Rolls</h1>
+            <span class="currentRoll"></span>
+            <h1>Total Roll</h1>
+            <span class="totalRoll"></span>
+          </div>
+          <div class="col-md-4">
+            <h1>Player Two</h1>
+            <span class="player-two-score"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button id="roll" type="submit" class="btn btn-primary">
+              Roll
+            </button>
+            <button id="hold" type="submit" class="btn btn-primary">
+              Hold
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="screenThree">
+        <h2>Player One Score:<span class="player-one-score"></span></h2>
+        <h2>Player Two Score:<span class="player-two-score"></span></h2>
+        <button id="startNewGame" type="submit" class="btn btn-primary">
+          New Game!
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
